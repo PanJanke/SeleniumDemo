@@ -1,10 +1,13 @@
 package pl.jano.tests;
 
 import org.testng.annotations.Test;
+import pl.jano.pages.HomePage;
 
-public class RegisterTest {
+public class RegisterTest extends BaseTest{
     @Test
     public void registerUserTest(){
-        System.out.println("MOck");
+      new HomePage(driver).openMyAccountPage()
+                          .registerUser("test@test123.pl","test@test123.pl");
+
     }
 }
