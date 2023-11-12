@@ -14,11 +14,12 @@ public class BaseTest {
     public void setup(){
         driver = DriverFactory.getDriver();
         driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         driver.get("http://seleniumdemo.com/");
     }
 
     @AfterMethod
     public void tearDown(){
-        //driver.quit();
+        driver.quit();
     }
 }

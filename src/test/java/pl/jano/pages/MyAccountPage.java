@@ -15,6 +15,8 @@ public class MyAccountPage {
     @FindBy(name="register")
     private WebElement registerButton;
 
+
+
     private WebDriver driver;
     public MyAccountPage(WebDriver driver) {
         PageFactory.initElements(driver,this);
@@ -27,4 +29,6 @@ public class MyAccountPage {
         registerButton.click();
         return new LoggedUserPage(driver);
     }
+
+
 }
