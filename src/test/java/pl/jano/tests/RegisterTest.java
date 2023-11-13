@@ -22,6 +22,6 @@ public class RegisterTest extends BaseTest {
         WebElement error=  new HomePage(driver).openMyAccountPage()
                 .registerUser("test@test.pl", "test@test123.pl").getError();
 
-        Assert.assertTrue(error.getText().contains("An account is already registered with your email address"));
+        Assert.assertTrue(error.getText().contains("An account is already registered with your email address")) ;
     }
 }

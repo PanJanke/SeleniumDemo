@@ -9,9 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74d6f17a-5476-491c-b0b8-ea02ccabfc05" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/pages/LoggedUserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/pages/LoggedUserPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/pages/MyAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/tests/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/RegisterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +114,7 @@
       <workItem from="1699384468632" duration="82000" />
       <workItem from="1699384581828" duration="4857000" />
       <workItem from="1699399092764" duration="6000" />
-      <workItem from="1699809589662" duration="2711000" />
+      <workItem from="1699809589662" duration="3669000" />
     </task>
     <servers />
   </component>
