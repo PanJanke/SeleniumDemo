@@ -15,7 +15,8 @@ public class MyAccountPage {
     @FindBy(name="register")
     private WebElement registerButton;
 
-
+    @FindBy(xpath = "//ul[@class='woocommerce-error']//li")
+    private WebElement error;
 
     private WebDriver driver;
     public MyAccountPage(WebDriver driver) {
@@ -23,11 +24,25 @@ public class MyAccountPage {
         this.driver=driver;
     }
 
-    public LoggedUserPage registerUser(String email,String password) {
+    private void registerUser(String email,String password){
         regEmailInput.sendKeys(email);
         regPasswordInput.sendKeys(password);
         registerButton.click();
+    }
+
+    public LoggedUserPage registerUserValidData(String email,String password) {
+        registerUser(email,password);
         return new LoggedUserPage(driver);
+    }
+
+    public MyAccountPage registerUserInvalidData(String email,String password) {
+        registerUser(email,password);
+        return this;
+    }
+
+
+    public WebElement getError() {
+        return error;
     }
 
 
