@@ -8,10 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d6f17a-5476-491c-b0b8-ea02ccabfc05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/pages/LoggedUserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/pages/LoggedUserPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/pages/MyAccountPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,29 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.pl.jano.tests">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.jano.tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTest">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSecondProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jano.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.jano.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.jano.tests.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterTest.registerUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSecondProject" />
       <extension name="coverage">
@@ -118,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.pl.jano.tests" />
         <item itemvalue="TestNG.RegisterTest.registerUserWithSameEmailTest" />
         <item itemvalue="TestNG.RegisterTest.registerUserTest" />
@@ -136,7 +157,7 @@
       <workItem from="1699384581828" duration="4857000" />
       <workItem from="1699399092764" duration="6000" />
       <workItem from="1699809589662" duration="6166000" />
-      <workItem from="1699897967764" duration="1964000" />
+      <workItem from="1699897967764" duration="2935000" />
     </task>
     <servers />
   </component>
