@@ -6,40 +6,65 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class MyAccountPage {
-    @FindBy(id="reg_email")
+    @FindBy(id = "reg_email")
     private WebElement regEmailInput;
 
-    @FindBy(id="reg_password")
+    @FindBy(id = "reg_password")
     private WebElement regPasswordInput;
 
-    @FindBy(name="register")
+    @FindBy(name = "register")
     private WebElement registerButton;
 
     @FindBy(xpath = "//ul[@class='woocommerce-error']//li")
     private WebElement error;
 
-    private WebDriver driver;
+    @FindBy(id = "username")
+    private WebElement usernameInput;
+
+    @FindBy(id = "password")
+    private WebElement passwordInput;
+
+    @FindBy(name = "login")
+    private WebElement loginButton;
+
+    private final WebDriver driver;
+
     public MyAccountPage(WebDriver driver) {
-        PageFactory.initElements(driver,this);
-        this.driver=driver;
+        PageFactory.initElements(driver, this);
+        this.driver = driver;
     }
 
-    private void registerUser(String email,String password){
+    private void registerUser(String email, String password) {
         regEmailInput.sendKeys(email);
         regPasswordInput.sendKeys(password);
         registerButton.click();
     }
 
-    public LoggedUserPage registerUserValidData(String email,String password) {
-        registerUser(email,password);
+    public LoggedUserPage registerUserValidData(String email, String password) {
+        registerUser(email, password);
         return new LoggedUserPage(driver);
     }
 
-    public MyAccountPage registerUserInvalidData(String email,String password) {
-        registerUser(email,password);
+    public MyAccountPage registerUserInvalidData(String email, String password) {
+        registerUser(email, password);
         return this;
     }
 
+    private void login(String username, String password) {
+        usernameInput.sendKeys(username);
+        passwordInput.sendKeys(password);
+        loginButton.click();
+    }
+
+    public LoggedUserPage loginValidData(String username, String password) {
+        login(username,password);
+        return new LoggedUserPage(driver);
+    }
+
+    public MyAccountPage loginInvalidData(String username, String password) {
+        login(username,password);
+        return this;
+    }
 
     public WebElement getError() {
         return error;

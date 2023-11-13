@@ -9,14 +9,15 @@ public class HomePage {
     @FindBy(xpath = "//span[text()='My account']")
     private WebElement myAccountLink;
 
-    private WebDriver driver;
-    public HomePage(WebDriver driver){
-        PageFactory.initElements(driver,this);
-        this.driver=driver;
+    private final WebDriver driver;
+
+    public HomePage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
+        this.driver = driver;
     }
 
 
-    public MyAccountPage openMyAccountPage(){
+    public MyAccountPage openMyAccountPage() {
         myAccountLink.click();
         return new MyAccountPage(driver);
     }
