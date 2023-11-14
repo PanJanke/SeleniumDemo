@@ -8,8 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d6f17a-5476-491c-b0b8-ea02ccabfc05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/tests/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/utils/DriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,23 +161,13 @@
       <workItem from="1699384581828" duration="4857000" />
       <workItem from="1699399092764" duration="6000" />
       <workItem from="1699809589662" duration="6166000" />
-      <workItem from="1699897967764" duration="2935000" />
+      <workItem from="1699897967764" duration="3725000" />
+      <workItem from="1699956694439" duration="1100000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pl/jano/tests/RegisterTest.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

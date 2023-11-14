@@ -9,20 +9,24 @@ public class RegisterTest extends BaseTest {
     @Test
     public void registerUserTest() {
 
-        int random = (int)(Math.random()*1000);
-        WebElement dashboardLink= new HomePage(driver).openMyAccountPage()
-                .registerUserValidData("test"+random+"@test.pl", "test@test123.pl").getDashboardLink();
+        int random = (int) (Math.random() * 1000);
+        WebElement dashboardLink = new HomePage(driver)
+                .openMyAccountPage()
+                .registerUserValidData("test" + random + "@test.pl", "test@test123.pl")
+                .getDashboardLink();
 
-        Assert.assertEquals(dashboardLink.getText(),"Dashboard");
+        Assert.assertEquals(dashboardLink.getText(), "Dashboard");
     }
 
     @Test
     public void registerUserWithSameEmailTest() {
 
-        WebElement error=  new HomePage(driver).openMyAccountPage()
-                .registerUserInvalidData("test@test.pl", "test@test123.pl").getError();
+        WebElement error = new HomePage(driver)
+                .openMyAccountPage()
+                .registerUserInvalidData("test@test.pl", "test@test123.pl")
+                .getError();
 
-        Assert.assertTrue(error.getText().contains("An account is already registered with your email address")) ;
+        Assert.assertTrue(error.getText().contains("An account is already registered with your email address"));
     }
 
 

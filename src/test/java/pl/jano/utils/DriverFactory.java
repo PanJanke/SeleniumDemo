@@ -7,11 +7,10 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 
 public class DriverFactory {
-    public static WebDriver getDriver(){
+    public static WebDriver getDriver() {
         FirefoxOptions options = new FirefoxOptions();
         options.setBinary("/usr/bin/firefox");
         WebDriverManager.firefoxdriver().setup();
-        return  new FirefoxDriver(options);
-        //return  new FirefoxDriver();
+        return new FirefoxDriver(options);
     }
 }
