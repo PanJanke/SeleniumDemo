@@ -5,7 +5,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pl.jano.utils.DriverFactory;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 public class BaseTest {
 
@@ -14,7 +14,7 @@ public class BaseTest {
     @BeforeMethod
     public void setup() {
         driver = DriverFactory.getDriver();
-        driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
         driver.get("http://seleniumdemo.com/");
     }
