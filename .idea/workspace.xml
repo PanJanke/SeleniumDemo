@@ -8,11 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d6f17a-5476-491c-b0b8-ea02ccabfc05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/jano/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/jano/pages/OrderDetailsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/pages/AddresDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/pages/AddresDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/pages/OrderDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/pages/OrderDetailsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/tests/CheckoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/CheckoutTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +179,7 @@
       <workItem from="1699399092764" duration="6000" />
       <workItem from="1699809589662" duration="6166000" />
       <workItem from="1699897967764" duration="3725000" />
-      <workItem from="1699956694439" duration="10945000" />
+      <workItem from="1699956694439" duration="12838000" />
     </task>
     <servers />
   </component>
@@ -193,8 +191,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/pl/jano/pages/AddresDetailsPage.java</url>
-          <line>61</line>
+          <line>57</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pl/jano/tests/CheckoutTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

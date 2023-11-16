@@ -2,16 +2,16 @@ package pl.jano.models;
 
 public class Customer {
 
-    private String firstName;
-    private String lastName;
-    private String companyName;
-    private String country;
-    private String street;
-    private String flatNumber;
-    private String zipCode;
-    private String city;
-    private String phone;
-    private String email;
+    private String firstName="Jan";
+    private String lastName="Testowy";
+    private String companyName="TESTEX";
+    private String country="Poland";
+    private String street="Testowa";
+    private String flatNumber="12";
+    private String zipCode="86320";
+    private String city="Kraków";
+    private String phone="663227254";
+    private String email="random@gmail.com";
 
 
     public String getFirstName() {
