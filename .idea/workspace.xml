@@ -8,8 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d6f17a-5476-491c-b0b8-ea02ccabfc05" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/tests/CheckoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/CheckoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/jano/utils/SeleniumHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/jano/tests/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jano/tests/RegisterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
       <recent name="pl.jano.tests" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CheckoutTest.checkoutTest">
+  <component name="RunManager" selected="TestNG.pl.jano.tests">
     <configuration name="CheckoutTest.checkoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSecondProject" />
       <extension name="coverage">
@@ -103,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTest.registerUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSecondProject" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +114,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.jano.tests" />
       <option name="MAIN_CLASS_NAME" value="pl.jano.tests.RegisterTest" />
-      <option name="METHOD_NAME" value="registerUserTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckoutTest.checkoutTest" />
-        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.pl.jano.tests" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.RegisterTest" />
+        <item itemvalue="TestNG.CheckoutTest.checkoutTest" />
         <item itemvalue="TestNG.RegisterTest.registerUserWithSameEmailTest" />
-        <item itemvalue="TestNG.RegisterTest.registerUserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,7 @@
       <workItem from="1699399092764" duration="6000" />
       <workItem from="1699809589662" duration="6166000" />
       <workItem from="1699897967764" duration="3725000" />
-      <workItem from="1699956694439" duration="13152000" />
+      <workItem from="1699956694439" duration="15323000" />
     </task>
     <servers />
   </component>
