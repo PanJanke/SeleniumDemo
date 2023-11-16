@@ -10,12 +10,13 @@ public class OrderDetailsPage {
 
     @FindBy(xpath = "//td[contains(@class,'product-name')]")
     private WebElement productName;
-    @FindBy(xpath ="//div[@class='woocommerce-order']//p" )
+    @FindBy(xpath = "//div[@class='woocommerce-order']//p")
     private WebElement OrderNotice;
     private WebDriver driver;
-    public OrderDetailsPage(WebDriver driver){
-        PageFactory.initElements(driver,this);
-        this.driver=driver;
+
+    public OrderDetailsPage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
+        this.driver = driver;
     }
 
     public WebElement getOrderNotice() {

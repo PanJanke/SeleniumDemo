@@ -57,12 +57,12 @@ public class MyAccountPage {
     }
 
     public LoggedUserPage loginValidData(String username, String password) {
-        login(username,password);
+        login(username, password);
         return new LoggedUserPage(driver);
     }
 
     public MyAccountPage loginInvalidData(String username, String password) {
-        login(username,password);
+        login(username, password);
         return this;
     }
 

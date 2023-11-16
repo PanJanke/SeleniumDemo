@@ -67,6 +67,5 @@ public class AddresDetailsPage {
 
         return new OrderDetailsPage(driver);
 
-
     }
 }

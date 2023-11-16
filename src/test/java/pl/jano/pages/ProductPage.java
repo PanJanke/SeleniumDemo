@@ -9,20 +9,21 @@ public class ProductPage {
     @FindBy(xpath = "//div[@class='woocommerce-message']//a[text()='View cart']")
     private WebElement viewCartButton;
 
-    @FindBy(name= "add-to-cart")
+    @FindBy(name = "add-to-cart")
     private WebElement addToCartButton;
     private WebDriver driver;
-    public ProductPage(WebDriver driver){
-        PageFactory.initElements(driver,this);
-        this.driver=driver;
+
+    public ProductPage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
+        this.driver = driver;
     }
 
-    public ProductPage addProductCart(){
+    public ProductPage addProductCart() {
         addToCartButton.click();
         return this;
     }
 
-    public CartPage viewCart(){
+    public CartPage viewCart() {
         viewCartButton.click();
         return new CartPage(driver);
     }

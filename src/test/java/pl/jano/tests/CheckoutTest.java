@@ -17,12 +17,11 @@ public class CheckoutTest extends BaseTest {
                 .addProductCart()
                 .viewCart()
                 .openAddresDetails()
-                .fillAdressDetails(customer,"Some random comment");
+                .fillAdressDetails(customer, "Some random comment");
 
 
-        Assert.assertEquals(orderDetailsPage.getOrderNotice().getText(),"Thank you. Your order has been received.");
+        Assert.assertEquals(orderDetailsPage.getOrderNotice().getText(), "Thank you. Your order has been received.");
         Assert.assertTrue(orderDetailsPage.getProductName().getText().contains("Java Selenium WebDriver"));
     }
-
 
 }

@@ -10,12 +10,13 @@ public class CartPage {
     private WebDriver driver;
     @FindBy(partialLinkText = "Proceed to checkout")
     private WebElement proceedToCheckoutButton;
-    public CartPage(WebDriver driver){
-        PageFactory.initElements(driver,this);
-        this.driver=driver;
+
+    public CartPage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
+        this.driver = driver;
     }
 
-    public AddresDetailsPage openAddresDetails(){
+    public AddresDetailsPage openAddresDetails() {
         proceedToCheckoutButton.click();
         return new AddresDetailsPage(driver);
 
